@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "AttendEasyAI WebSite",
-    description: "A beautiful landing page app using React and Material UI.",
+    description: "React & Material UI front end for an AI attendance system, backed by Express.js & MySQL.",
     image: "/projects/AttendEasyAI.png",
     tags: ["React", "Material UI", "Express.js", "Mysql"],
     demoUrl: "https://attendeasyai.up.railway.app",
@@ -33,11 +33,20 @@ const projects: Project[] = [
     id: 3,
     title: "Cemetery Mapping Page",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "Interactive cemetery mapping app with React, Express.js & MySQL.",
     image: "/projects/Himlayan.png",
     tags: ["React", "Express.js", "Mysql"],
     demoUrl: "https://himlayan.up.railway.app",
     githubUrl: "https://github.com/Cjake28/Cemetery-Mapping-System",
+  },
+  {
+    id: 4,
+    title: "E-Trucking",
+    description:"ESP32 fleet tracker sending sensor & GPS data to Firebase in real time.",
+    image: "/projects/E_Trucking.png",
+    tags: ["Arduino IDE", "ESP32", "Firebase"],
+    demoUrl: "#",
+    githubUrl: "https://github.com/Cjake28/E-trucking",
   },
 ];
 
