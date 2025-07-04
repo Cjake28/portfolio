@@ -23,7 +23,7 @@ const projects: Project[] = [
   {
     id: 2,
     title: "AttendEasyAI WebSite",
-    description: "A beautiful landing page app using React and Tailwind.",
+    description: "A beautiful landing page app using React and Material UI.",
     image: "/projects/AttendEasyAI.png",
     tags: ["React", "Material UI", "Express.js", "Mysql"],
     demoUrl: "https://attendeasyai.up.railway.app",
