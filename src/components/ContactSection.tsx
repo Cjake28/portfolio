@@ -17,6 +17,8 @@ import axios from "axios";
 export const ContactSection = () => {
   const { toast } = useToast();
 
+  const BACKEND_SERVER_URL = import.meta.env.VITE_BACKEND_SERVER_URL as string;
+
   // 1) State for form values
   const [formData, setFormData] = useState({
     name: "",
@@ -44,7 +46,7 @@ export const ContactSection = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:8084/api/send-email",
+        `${BACKEND_SERVER_URL}/api/send-email`,
         formData
       );
 
